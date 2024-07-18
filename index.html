@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b0f906695.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Mokshi Diwde</span><br>From Indore</h1>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------About-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image_3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>I have completed my Bachelor of Technology from Acropolis Institute
+                        of Technology and Research(Indore), with a stream of Computer Science and Information Technology
+                        I am a Front-end Web Developer and UI/UX Designer. I can provide clean code and pixel perfect
+                        design. I also make the website more & more interactive with web animations.
+                        A responsivr design makes your website accessible to all users, regardless of their device.
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Training')">Training</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces using Figma</li>
+                            <li><span>Front-end Developer</span><br>Creating a website using HTML, CSS, JavaScript</li>
+                            <li><span>Graphic Designer</span><br>Designing Posters and Logo</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Training">
+                        <ul>
+                            <li><span>UI/UX training </span><br>Training at AITR Indore</li>
+                            <li><span>Front-end Development</span><br>Training at Universal Institute Indore, During
+                                this training i learned HTML,CSS,JavaScript and creating a wep page</li>
+                            <li><span>Summer Internship</span><br>Summer Intenship in Persistent system, During this
+                                internship i learned DBMS,Python Basics and Linux</li>
+                            <li><span>TCS-ION Career Edge</span><br>Course covered communication, presentation, soft
+                                skills, business etiquette, and IT fundamentals, enhancing my professional and
+                                interpersonal capabilities.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br>I have completed my Bachelor of Technology from Acropolis Institute
+                                of Technology and Research(Indore), with a stream of Computer Science and Information Technology
+                            </li>
+                            <li><span>2019-2020</span><br>I have completed my 12th(PCM) from Career Convent Public School Indore
+                            </li>
+                            <li><span>2016-2017</span><br>I have completed my 10th from Excellence School Betul</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Every website should be built with two primary goals. Firstly, it needs to work across all
+                        devices. Secondly, it needs to be fast as possible.Your website is often the first impression
+                         potential customers have of your business, so it’s crucial to make it a good one.</p>
+                    <details>
+                        <summary>Learn more</summary>
+                        <p> Our web design service creates beautiful, responsive, and
+                            high-performing websites that reflect your brand’s personality. Whether you need a simple
+                            landing page or a complex e-commerce site, we work closely with you to build a site that
+                            meets your needs and goals.</p>
+                    </details>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design are key to creating digital products that are
+                        both attractive and easy to use. Our UI/UX design service focuses on
+                        engaging digital interfaces that make users happy. We start by understanding your users and
+                        their needs, then design interfaces that are both beautiful and functional.</p>
+                    <details>
+                        <summary>Learn more</summary>
+                        <p>By using best practices in usability and accessibility, we ensure your website or app
+                            provides a great experience, turning visitors into loyal users. Our aim is to create digital
+                            experiences that exceed user expectations and foster engagement.</p>
+                    </details>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Poster Design</h2>
+                    <p>In today’s world, having eye-catching visuals is essential. Our poster and logo design service
+                        creates striking posters and logos that effectively share your brand’s message. Whether you need
+                        a vibrant poster for an event or a sleek logo that stands out, we design to meet your needs.</p>
+                    <details>
+                        <summary>Learn more</summary>
+                        <p>We combine creativity with strategic thinking to ensure your designs not only look great but
+                            also connect with your audience and leave a lasting impression. Our goal is to create
+                            visuals that capture attention and convey your brand’s values.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------portfolio----------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/calculator-button.webp">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>I have completed my internship in Interncrowd,
+                            During the internship i created an interactive calculator as a task.
+                            I used HTML, CSS and JavaScript to create the page.</p>
+                        <a href="https://mokshidiwde1111.github.io/OASIS_INFOBYTE_Task_1_/" target="main">
+                        <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/luggage_thikhana.webp">
+                    <div class="layer">
+                        <h3>Luggage Thikhana</h3>
+                        <p>I created a design of major project luggage thikhana. A convenient online platform for easy
+                            booking and managing of luggage transportation services for hassle free travel experiences..
+                        </p>
+                        <a href="https://www.figma.com/proto/5VOeMmk8IqGzSaL0RvGcU4/DeskLuggage?node-id=1-2&starting-point-node-id=1%3A2" target="main">
+                        <i class="fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/chocolate-donut.webp">
+                    <div class="layer"> 
+                        <h3>Cafe Web Page Design</h3>
+                        <p>The newly designed web page for the café radiates warmth and charm, capturing the essence of a cozy, inviting atmosphere with a special focus on its delicious donuts</p>
+                        <a href="https://www.figma.com/proto/WKBmSPfRqnVLI6juDdaP8U/Donut?node-id=13-113&scaling=scale-down&content-scaling=fixed" target="main">
+                        <i class="fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <!--<a href="#" class="btn">See more</a>-->
+        </div>
+    </div>
+
+    <!----------------------------------contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Mokshiraghuwanshi05@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 8120738671</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/mokshi_diwde_03?igsh=MTlld29lOGM4ZWFybw=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Mokshidiwde1111"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mokshi-diwde-62a96a20b"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/MY_RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made by <i class="fa-solid fa-heart"></i> Mokshi Diwde</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxGGsSvwv92CHoH9zhEu8bC9gMmgjPnnBq3P_E-myvTLKk1eWi9Gb0PH5Rj4IKU1cW7jw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
